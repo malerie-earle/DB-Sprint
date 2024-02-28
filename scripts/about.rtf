@@ -25,7 +25,7 @@ This query counts the total number of products for each person, utilizing the GR
 \
 Example 3: Counting the number of customers for each vendor.\
 \
-This query counts the number of customers for each vendor, with a LEFT JOIN to account for vendors without customers.\
+This query calculates the total number of products associated with each vendor. The result shows the count of products for each vendor.\
 \
 Example 4: Retrieving customers and their orders.\
 \
@@ -37,23 +37,23 @@ This query selects all records from the Person table where the Person_type is 'c
 \
  Example 6: Using ORDER BY.\
 \
-This query selects all records from the Product table and orders them by the 'Price' column in descending order.\
+This query sorting results by Price in descending and ascending order.\
 \
  Example 7: Retrieving Product Information with Corresponding Person ID from Order Invoices.\
 \
 This query retrieves product information along with the corresponding person ID from order invoices, using a JOIN operation.\
 \
-Example 8: Displays the count of products in each category.\
+Example 8: Displays the count of products and their names in each category.\
 \
- This query counts the number of products in each category, using a LEFT JOIN with the productCategory table.\
+ This query provides a comprehensive view of product counts and their corresponding names within each category. Results show as an array of product names for better readability.\
 \
  Example 9: Find vendors whose average product price exceeds 2.\
 \
 This query identifies vendors whose average product price exceeds 2, using JOIN operations and the HAVING clause.\
 \
- Example 10: Find all customers who are also vendors.\
+ Example 10: Using WHERE.\
 \
-This query selects customers who are also vendors from the Person and vendor tables, based on their Person_type.\
+Retrieve data about orders and their products for customers made after a specific date and using specific method (shipping information).\
 \
 Example 11: Obtain information about products and their respective invoice numbers for each individual.\
 \
